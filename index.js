@@ -12,7 +12,7 @@ app.use(cors());
 const port = 5000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello from db it is working!')
 })
 
 
